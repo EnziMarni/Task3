@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.slider {
+    padding: 5px 0;
+    background-color:#FA8072;
+}
+.slider ul li {
+    display: inline-block;
+    color: beige;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+
+    padding: 20px 15px;
+    color:#FA8072 ;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+.menu{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+.banner {
+    height: 60vh;
+    background-image: url(Gambar/Gambar1.jpg);
+    background-size: cover;
+    
+    padding: 50px 0;
+}
+.banner :after {
+    content : " ";
+    display : block;
+    position : absolute;
+    top : 0;
+    left :1000;
+    right : 0;
+    bottom : 0;
+}
+.judul {
+    color:black;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+section {
+    padding: 50px 0;
+}
+footer p {
+    color:white;
+	text-align: center;
+	font-size: 12px;
+    background-color: #333;
+	padding: 20px;
+}
+.box {
+    margin: 150px auto;
+    height: 300px;
+    width: 600px;
+}
+.atas {
+    height: 50px;
+    width: 600px;
+    background-color:burlywood;
+}
+.kiri {
+    height: 250px;
+    width: 200px;
+    float: left;
+    background-color: cornsilk;
+}
+.gambar {
+    background-image:url(Gambar/Foto\ enzi.jpeg) ;
+    height: 120px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.kanan {
+    width: 400px;
+    height: 250px;
+    background-color: cornsilk;
+    float: right;
+    margin-top: 50px;
+}
+.header {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+.foto {
+    float: left;
+    margin: 85px;
+    background-color: burlywood;
+    text-align: center;
+}
+.Propil {
+    background-image: url(Gambar/Gambar2.jpg);
+    background-size: cover;
+}
+.blog {
+    background-color: cadetblue;
+}
+.Pemesanan {
+    text-align: center;
+    margin-top: 300px;
+    background-image: url(foto/Background.jpg);
+    background-size: cover;
+}
+.kontak {
+    text-align: center;
+}
+.bodyy {
+    background-image: url(Gambar/Gambar3.jpg);
+    background-size: cover;
+}
+.judulkontak {
+    margin-top: 50px;
+}
+.isi {
+    margin-top: 50px;
+}
+.email {
+    margin-top: 20px;
+}
+.pesan {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.button {
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: lightcoral;
+    
+}
+.about {
+    text-align: center;
+    margin-top: 200px;
+    color: black;
+    border: white;
+}
+.body {
+    background-color: rgb(153, 83, 83);
+}
+.tentang {
+    margin-top: 30px;
+}
+.penjelasan {
+    margin-top: 30px;
+}
